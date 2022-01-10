@@ -1,0 +1,56 @@
+﻿@model prjDemoEF.Models.TaiKhoan
+
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_LayoutBaiviet.cshtml";
+
+}
+
+<h2>DangKy</h2>
+<div >
+    <div >
+        @using (Html.BeginForm("DangKy", "NguoiDung", FormMethod.Post))
+        {
+            //@Html.ValidationSummary()
+            @Html.AntiForgeryToken()
+
+          
+                    <div >
+                        @Html.LabelFor(m => m.maTaiKhoan)
+                        @Html.TextBoxFor(m => m.maTaiKhoan, "", new { @class = "form-control", @placeholder = "ma tai khoan" })
+                        @Html.ValidationMessageFor(m => m.maTaiKhoan, "", new { @class = "badge badge-danger" })
+                    </div>
+                    <div >
+                        @Html.LabelFor(m => m.tenDayDu)
+                        @Html.TextBoxFor(m => m.tenDayDu, "", new { @class = "form-control", @placeholder = "ten day du" })
+                        @Html.ValidationMessageFor(m => m.tenDayDu, "", new { @class = "badge badge-danger" })
+
+                    </div>
+                    <div >
+                        @Html.LabelFor(m => m.email)
+                        @Html.TextBoxFor(m => m.email, "", new { @class = "form-control", @placeholder = "Email" })
+                        @Html.ValidationMessageFor(m => m.email, "", new { @class = "badge badge-danger" })
+                        @if (ViewBag.error != null)
+                        {
+                            <span class="badge badge-danger">@ViewBag.error</span>
+                        }
+                    </div>
+                    <div >
+                        @Html.LabelFor(m => m.matKhau)
+                        @Html.PasswordFor(m => m.matKhau, new { @class = "form-control", @placeholder = "Password" })
+                        @Html.ValidationMessageFor(m => m.matKhau, "", new { @class = "badge badge-danger" })
+                    </div>
+                    <div >
+                        @Html.LabelFor(m => m.loaiTaiKhoan)
+                        @Html.TextBoxFor(m => m.loaiTaiKhoan, new { @class = "form-control", @placeholder = "loai tai khoan" })
+                        @Html.ValidationMessageFor(m => m.loaiTaiKhoan, "", new { @class = "badge badge-danger" })
+                    </div>
+                    <div >
+                        <input type="submit" name="submit" class="btn btn-danger" value="Register" />
+                    </div>
+             
+
+        }
+    </div>
+</div>
+

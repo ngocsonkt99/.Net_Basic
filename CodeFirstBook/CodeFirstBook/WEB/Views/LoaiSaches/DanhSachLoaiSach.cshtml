@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Model.LoaiSach>
+
+@foreach (var item in Model)
+{
+    <div style="width: 100px">
+        <b><a href="@Url.Action("LaySachTheoLoai", "LoaiSaches", new {id = item.Id })">@item.TenLoai</a>  </b>
+       
+    </div>
+}

@@ -1,0 +1,41 @@
+﻿@using prjDemoEF.Models;
+@model List<prjDemoEF.Models.BaiViet>
+
+<table class="table">
+    <tr>
+        <th>
+            Ten
+        </th>
+        <th>
+            Noi dung
+        </th>
+        <th>
+            Noi dung chinh
+        </th>
+        <th>
+            Ngay
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.tuaBaiViet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.noiDungTomTat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.noiDungChinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ngayDang)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { ma = item.maBaiViet }) |
+                @Html.ActionLink("Xem_Chi_Tiet", "XemChiTiet", new { maBV=item.maBaiViet }) |
+                @Html.ActionLink("Delete", "Delete", new { ma = item.maBaiViet })
+            </td>
+        </tr>
+    }
+</table>

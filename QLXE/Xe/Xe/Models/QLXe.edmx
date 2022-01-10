@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CSDLXeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ListXe">
+          <Key>
+            <PropertyRef Name="ma" />
+          </Key>
+          <Property Name="ma" Type="int" Nullable="false" />
+          <Property Name="ten" Type="nvarchar" MaxLength="100" />
+          <Property Name="namsx" Type="int" />
+          <Property Name="gia" Type="float" />
+          <Property Name="hinhanh" Type="nvarchar" MaxLength="100" />
+          <Property Name="loai" Type="nvarchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="LoaiXe">
+          <Key>
+            <PropertyRef Name="maloai" />
+          </Key>
+          <Property Name="maloai" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="tenloai" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <Association Name="FK__ListXe__loai__267ABA7A">
+          <End Role="LoaiXe" Type="Self.LoaiXe" Multiplicity="0..1" />
+          <End Role="ListXe" Type="Self.ListXe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiXe">
+              <PropertyRef Name="maloai" />
+            </Principal>
+            <Dependent Role="ListXe">
+              <PropertyRef Name="loai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CSDLXeModelStoreContainer">
+          <EntitySet Name="ListXe" EntityType="Self.ListXe" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LoaiXe" EntityType="Self.LoaiXe" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__ListXe__loai__267ABA7A" Association="Self.FK__ListXe__loai__267ABA7A">
+            <End Role="LoaiXe" EntitySet="LoaiXe" />
+            <End Role="ListXe" EntitySet="ListXe" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CSDLXeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ListXe">
+          <Key>
+            <PropertyRef Name="ma" />
+          </Key>
+          <Property Name="ma" Type="Int32" Nullable="false" />
+          <Property Name="ten" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="namsx" Type="Int32" />
+          <Property Name="gia" Type="Double" />
+          <Property Name="hinhanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="loai" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="LoaiXe" Relationship="Self.FK__ListXe__loai__267ABA7A" FromRole="ListXe" ToRole="LoaiXe" />
+        </EntityType>
+        <EntityType Name="LoaiXe">
+          <Key>
+            <PropertyRef Name="maloai" />
+          </Key>
+          <Property Name="maloai" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="tenloai" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ListXes" Relationship="Self.FK__ListXe__loai__267ABA7A" FromRole="LoaiXe" ToRole="ListXe" />
+        </EntityType>
+        <Association Name="FK__ListXe__loai__267ABA7A">
+          <End Role="LoaiXe" Type="Self.LoaiXe" Multiplicity="0..1" />
+          <End Role="ListXe" Type="Self.ListXe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiXe">
+              <PropertyRef Name="maloai" />
+            </Principal>
+            <Dependent Role="ListXe">
+              <PropertyRef Name="loai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CSDLXeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ListXes" EntityType="Self.ListXe" />
+          <EntitySet Name="LoaiXes" EntityType="Self.LoaiXe" />
+          <AssociationSet Name="FK__ListXe__loai__267ABA7A" Association="Self.FK__ListXe__loai__267ABA7A">
+            <End Role="LoaiXe" EntitySet="LoaiXes" />
+            <End Role="ListXe" EntitySet="ListXes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CSDLXeModelStoreContainer" CdmEntityContainer="CSDLXeEntities">
+          <EntitySetMapping Name="ListXes">
+            <EntityTypeMapping TypeName="CSDLXeModel.ListXe">
+              <MappingFragment StoreEntitySet="ListXe">
+                <ScalarProperty Name="ma" ColumnName="ma" />
+                <ScalarProperty Name="ten" ColumnName="ten" />
+                <ScalarProperty Name="namsx" ColumnName="namsx" />
+                <ScalarProperty Name="gia" ColumnName="gia" />
+                <ScalarProperty Name="hinhanh" ColumnName="hinhanh" />
+                <ScalarProperty Name="loai" ColumnName="loai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LoaiXes">
+            <EntityTypeMapping TypeName="CSDLXeModel.LoaiXe">
+              <MappingFragment StoreEntitySet="LoaiXe">
+                <ScalarProperty Name="maloai" ColumnName="maloai" />
+                <ScalarProperty Name="tenloai" ColumnName="tenloai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,58 @@
+﻿@model prjDemoEF.Models.BaiViet
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BaiViet</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tuaBaiViet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tuaBaiViet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.noiDungTomTat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.noiDungTomTat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.noiDungChinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.noiDungChinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ngayDang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngayDang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoaiBaiViet.tenLoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiBaiViet.tenLoai)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.maBaiViet }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

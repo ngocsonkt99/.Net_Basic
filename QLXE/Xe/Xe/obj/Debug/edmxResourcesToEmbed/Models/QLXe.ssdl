@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CSDLXeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ListXe">
+    <Key>
+      <PropertyRef Name="ma" />
+    </Key>
+    <Property Name="ma" Type="int" Nullable="false" />
+    <Property Name="ten" Type="nvarchar" MaxLength="100" />
+    <Property Name="namsx" Type="int" />
+    <Property Name="gia" Type="float" />
+    <Property Name="hinhanh" Type="nvarchar" MaxLength="100" />
+    <Property Name="loai" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="LoaiXe">
+    <Key>
+      <PropertyRef Name="maloai" />
+    </Key>
+    <Property Name="maloai" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="tenloai" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK__ListXe__loai__267ABA7A">
+    <End Role="LoaiXe" Type="Self.LoaiXe" Multiplicity="0..1" />
+    <End Role="ListXe" Type="Self.ListXe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiXe">
+        <PropertyRef Name="maloai" />
+      </Principal>
+      <Dependent Role="ListXe">
+        <PropertyRef Name="loai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CSDLXeModelStoreContainer">
+    <EntitySet Name="ListXe" EntityType="Self.ListXe" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoaiXe" EntityType="Self.LoaiXe" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__ListXe__loai__267ABA7A" Association="Self.FK__ListXe__loai__267ABA7A">
+      <End Role="LoaiXe" EntitySet="LoaiXe" />
+      <End Role="ListXe" EntitySet="ListXe" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

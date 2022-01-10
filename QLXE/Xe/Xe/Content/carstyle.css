@@ -1,0 +1,85 @@
+﻿body {
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+#banner {
+    width: 800px;
+    background-color: black;
+    color: white;
+    height: 80px;
+    border: 1px solid black;
+    float: left;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#links {
+    width: 795px;
+    background-color: white;
+    color: black;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    padding-left: 5px;
+}
+
+#content {
+    width: 800px;
+    background-color: white;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+}
+
+#left {
+    width: 145px;
+    height: auto;
+    float: left;
+    padding-left: 5px;
+}
+
+#xemua:link {
+    font-weight: bold;
+}
+
+#xemua:hover {
+    color: red;
+}
+
+#right {
+    width: 635px;
+    height: auto;
+    float: left;
+    padding-left: 5px;
+    border-left: 1px solid black;
+}
+
+
+#footer {
+    width: 800px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+}
+
+
+#box_car {
+    width: 600px;
+    height: auto;
+    align-content: center;
+}
+
+#box_car_in {
+    width: 150px;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    border: 1px inset #808080;
+    float: left;
+    padding: 10px;
+}

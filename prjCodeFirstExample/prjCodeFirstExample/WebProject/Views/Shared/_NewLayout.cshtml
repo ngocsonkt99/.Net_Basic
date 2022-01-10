@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        /*div {
+            border: 1px solid #808080;
+        }*/
+         nav {
+            background-color:#e1f6f3;
+            height:30px;
+            text-align:center;
+            color:#2083cd;
+            font-size: 16px;
+            margin:  0 auto;
+            padding:10px 0px 0px 0px;
+
+        }
+
+        .menu {
+            background-color: aqua;
+        }
+
+        .header {
+            background-color: lightpink;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        #left {
+            width: 20%;
+            float: left;
+        }
+         #footer {
+            clear:both;
+            background-color:#e1f6f3;
+
+        }
+        #right {
+            width: 80%;
+            float: right;
+        }
+         #frm {
+            height:200px;
+        }
+        #dsbv {
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar header">
+            <h1>LO GO HEADER</h1>
+            <div class="menu" style="text-align:center">
+                <nav>
+                    <a href="@Url.Action("Index","Tacgias")">Trang chủ</a>|
+                    <a href="@Url.Action("Index","Tacgias")">Writer</a>|
+                    <a href="@Url.Action("Index","Recipes")">Recipe</a>
+                    @* <a href="@Url.Action("Index","Home")">Đăng nhập</a>|
+        <a href="@Url.Action("DangKy","NguoiDung")">Đăng ký</a>|
+        @{
+            if (Request.Cookies["myCookies"] != null)
+            {
+                HttpCookie ck = Request.Cookies["myCookies"];
+                Session["maTaiKhoan"] = ck["name"].ToString();
+            }
+        }
+        @if (Session["maTaiKhoan"] != null)
+        {
+            @Session["maTaiKhoan"].ToString()
+            <a href="@Url.Action("DoiMatKhau","NguoiDung")">|Đổi mật khẩu</a>
+            <a href="@Url.Action("DangXuat","NguoiDung",
+                    new { @strURL=Request.Url.ToString()})">|Đăng xuất</a>
+        }*@
+                </nav>
+            </div>
+        </div>
+        <div class="main">
+            <div id="left">
+                Writers
+                <div id="dsbv">
+                    DANH SÁCH CÁC WRITES
+                    @Html.Action("TenTacGia", "Tacgias")
+                </div>
+
+                @*<div id="LoginForm">
+                    @using (Html.BeginForm("DangNhap", "NguoiDung",
+                        new { @strURL = Request.Url.ToString() }))
+                    {
+                        @Html.Label("Username:")
+                        @Html.TextBox("txtUser", "", htmlAttributes: new
+                        {
+                                @class = "textboxDangNhap",
+                            @placeholder = "nhập user"
+                        })
+                        @Html.Label("Password:")
+                        @Html.Password("txtPass", "", htmlAttributes: new
+                        {
+                                @class = "textboxDangNhap",
+                            @placeholder = "nhập password"
+                        })
+                        <p>
+                            <button type="submit" name="btnDangNhap" class="buttonDangNhap">
+                                Sign In
+                            </button>
+                        </p>
+                    }
+                </div>*@
+            </div>
+            <div id="right">
+
+                @RenderBody()
+                @*noi dung thay doi*@
+
+
+            </div>
+        </div>
+        <div id="footer">
+            Khoa CNTT - IUH
+        </div>
+
+    </div>
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+

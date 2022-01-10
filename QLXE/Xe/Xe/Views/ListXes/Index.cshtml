@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Xe.Models.ListXe>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div id="box_car">
+    <p>
+        @*@Html.ActionLink("Create New", "Create")*@
+    </p>
+    <br />
+    @foreach (var item in Model)
+    {
+    <div id="box_car_in">
+        <img src="../../Content/hinhanh/@item.hinhanh" /><br />
+        Ma xe: @Html.DisplayFor(modelItem => item.ma)<br />
+        Ten xe: @Html.DisplayFor(modelItem => item.ten)<br />
+        Nam sx: @Html.DisplayFor(modelItem => item.namsx)<br />
+        Gia: @Html.DisplayFor(modelItem => item.gia)<br />
+        Loai xe: @Html.DisplayFor(modelItem => item.loai)<br />
+        <a href="@Url.Action("Addcar", "Datxe", new { xeid = @item.ma, @strUrl = Request.Url.ToString()})">
+            Mua xe
+        </a><br />
+        <a href="@Url.Action("Details", "ListXes", new { id = item.ma })">Xem chi tiet</a>
+    </div>
+    }
+</div>
+<style>
+    img {
+        width: 120px;
+        height: 120px;
+    }
+</style>

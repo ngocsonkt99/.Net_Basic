@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Xe.Models.Xemua>
+@{
+    ViewBag.Title = "Datxemua";
+    Layout = "~/Views/Shared/Car_template.cshtml";
+}
+<h2>Datxemua</h2>
+<h3>Danh sach xe chon mua</h3>
+@*@foreach (var item in Model)
+{
+    <div>Ma xe: @item.xMa</div>
+    <div> Ten xe: @item.xTen</div>
+    <div> Don gia: @item.xGia</div>
+    <div> Thanh tien: @item.xTT</div>
+}
+<h2>Tong thanh tien @ViewBag.Tien</h2>*@
+
+<table style="width:600px; border: 1px solid #ff0000;">
+    <tr>
+        <th>Ma xe</th>
+        <th>Ten xe</th>
+        <th>Don gia</th>
+        <th>So luong</th>
+        <th>Thanh tien</th>
+        <th>&nbsp;</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.xMa</td>
+            <td>@item.xTen</td>
+            <td>@item.xGia</td>
+            @using (Html.BeginForm("Capnhatxemua", "Datxe", new { @xeid = item.xMa }))
+            {
+                <td>@Html.TextBox("txtSoluong", item.xSl, new { @size = 4 }) </td>
+                <td>@item.xTT</td>
+                <td><input type="submit" , value="Cap nhat" />@Html.ActionLink("Xoa", "Xoaxemua", new { @xeid = item.xMa })</td>
+            }
+        </tr>
+    }
+    <tr>
+        <td colspan="6" style="text-align:right; color:blue">
+            Tong thanh tien @ViewBag.Tien
+        </td>
+    </tr>
+</table>

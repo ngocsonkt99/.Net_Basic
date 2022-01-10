@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /*div {
+            border: 1px solid #808080;
+        }*/
+        nav {
+            background-color: #e1f6f3;
+            height: 30px;
+            text-align: center;
+            color: #2083cd;
+            font-size: 16px;
+            
+            padding: 0px 0px 0px 0px;
+        }
+
+        .menu {
+            background-color: aqua;
+        }
+
+        .header {
+            background-color: lightpink;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        #left {
+            width: 20%;
+            float: left;
+        }
+
+        #footer {
+            clear: both;
+            background-color: #e1f6f3;
+        }
+
+        #right {
+            width: 80%;
+            float: right;
+        }
+
+        #frm {
+            height: 200px;
+        }
+
+        #dsbv {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar header" style="border: 3px solid aqua">
+            <h1>LO GO HEADER</h1>
+            <div class="menu" >
+                @*<nav class="header" style="border: 3px solid aqua;background-color:hotpink; text-align:center">*@
+                <nav>
+                    <a href="@Url.Action("In")">|Trang chủ|</a>&nbsp;
+                    <a href="@Url.Action("Create","TaiKhoans")">Đăng kí|</a>
+                    <a href="@Url.Action("Index","Saches")">Sách|</a>
+                </nav>
+                    <br />
+                    <div class="container body-content">
+
+                        <div class="row">
+
+                            <div class="col-sm-4" style="border:1px solid pink">
+                                @Html.Action("DanhSachLoaiSach", "LoaiSaches")
+                                <br />
+                                <span>Tên đăng nhập</span><br /><br />
+                                <input type="text" placeholder="Tên đăng nhập" /><br /><br />
+                                <span>Mật khẩu</span><br /><br />
+                                <input type="password" placeholder="Mật khẩu" /><br /><br />
+
+                                <button class="btn btn-sucess">Đăng nhập</button>
+                                <hr />
+                            </div>
+                            <div class="col-sm-8">
+                                @RenderBody()
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="ft">
+                        <footer style="border: 3px solid aqua;background-color:hotpink">
+                            <p style="text-align:center">MSSV-HoTen-Lop</p>
+                        </footer>
+                    </div>
+</div>
+        </div>
+    </div>
+</body>
+</html>

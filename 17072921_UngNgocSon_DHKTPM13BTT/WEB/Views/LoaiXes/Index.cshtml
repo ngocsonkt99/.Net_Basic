@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Model.LoaiXe>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@foreach (var item in Model)
+{
+
+    <div class="col-lg-4" style="border: 1px solid aqua">
+
+        @item.TenLoai<br />
+
+        @Html.ActionLink("XemChitiet", "Details", new { id = item.Id })
+    </div>
+
+
+}

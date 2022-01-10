@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Test CRUD API</title>
+	<meta charset="utf-8" />
+    <script src="scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        function GetAllEmployees() {
+            $.ajax({
+                url: '/api/employee/',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    var strResult = "";
+                    strResult = "<table width='100%'><th>Id</th><th>Name</th><th>Gender</th><th>Age</th><th>Salary</th>";
+                    $.each(data, function (index, employee) {
+                        strResult += "<tr><td>" + employee.Id + "</td><td>" + employee.Name + "</td><td>" + employee.Gender + "</td><td>" + employee.Age + "</td><td>" + employee.Salary + "</td></tr>";
+                    });
+                    strResult += "</table>"
+                    $("#divDisplayAllEmployees").html(strResult);
+                },
+                error: function (data) {
+                    alert("The Employee not load");
+                }
+            });
+        }
+
+        function GetSingleEmployee() {
+            var employeeId = $('#txtSingleEmployeeId').val();
+
+            $.ajax({
+                url: '/api/employee/' + employeeId,
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    var strResult = "<table width='100%'><th>Id</th><th>Name</th><th>Gender</th><th>Age</th><th>Salary</th>";
+                    strResult += "<tr><td>" + data.Id + "</td><td>" + data.Name + "</td><td>" + data.Gender + "</td><td>" + data.Age + "</td><td>" + data.Salary + "</td><tr>";
+                    strResult += "</table>"
+                    $("#divDisplaySingleEmployee").html(strResult);
+                },
+                error: function () {
+                    alert("The Employee not found in the List for the given ID");
+                }
+            });
+        }
+
+        function AddEmployee() {
+            var employee = {
+                id: $('#txtEmployeeId').val(),
+                name: $('#txtEmployeeName').val(),
+                gender: $('#optGender').val(),
+                age: $('#txtEmployeeAge').val(),
+                salary: $('#txtEmployeeSalary').val()
+            };
+
+            $.ajax({
+                url: '/api/employee/',
+                type: 'POST',
+                data: JSON.stringify(employee),
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    alert('Employee added successfully');
+                    GetAllEmployees();
+                },
+                error: function () {
+                    alert("Employee not Added");
+                }
+            });
+        }
+
+        function UpdateEmployee() {
+            var employee = {
+                id: $('#txtEmployeeId').val(),
+                name: $('#txtEmployeeName').val(),
+                gender: $('#optGender').val(),
+                age: $('#txtEmployeeAge').val(),
+                salary: $('#txtEmployeeSalary').val()
+            };
+
+            $.ajax({
+                url: '/api/employee/' + $('#txtEmployeeId').val(),
+                type: 'PUT',
+                data: JSON.stringify(employee),
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    alert('Employee updated successfully');
+                    GetAllEmployees();
+                },
+                error: function () {
+                    alert("Employee could not be updated");
+                }
+            });
+        }
+
+        function DeleteEmployee() {
+            var id = $('#txtEmpId').val();
+
+            $.ajax({
+                url: '/api/employee/' + id,
+                type: 'DELETE',
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    GetAllEmployees();
+                },
+                error: function () {
+                    alert("Employee could not be deleted");
+                }
+            });
+        }
+    </script>
+</head>
+<body onload="GetAllEmployees(); return false;">
+    <table border="0" width="600">
+        <tr>
+            <td>
+                <div id="divDisplayAllEmployees"></div>
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <table border="0" width="600">
+        <tr>
+            <td>
+                <h3 style="color: green">Add/Update Employee</h3>
+                <table border="0">
+                    <tr>
+                        <td>Employee Id</td>
+                        <td>
+                            <input id="txtEmployeeId" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Employee Name</td>
+                        <td>
+                            <input id="txtEmployeeName" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Employee Gender</td>
+                        <td>
+                            <select id="optGender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Employee Age</td>
+                        <td>
+                            <input id="txtEmployeeAge" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Employee Salary</td>
+                        <td>
+                            <input id="txtEmployeeSalary" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="btnPostEmployee" onclick="AddEmployee()">Add New Employee</button>
+                            <button id="btnPutEmployee" onclick="UpdateEmployee()">Update Employee</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <table border="0" width="600">
+        <tr>
+            <td>
+                <h3 style="color: green">Get Single Employee Record</h3>
+                Enter EmployeeId: <input id="txtSingleEmployeeId" type="text" />
+                <button id="btnSingleEmployee" onclick="GetSingleEmployee(); return false;">Get Single Employee Record</button>
+                <div id="divDisplaySingleEmployee"></div>
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <table border="0" width="600">
+        <tr>
+            <td>
+                <h3 style="color: green">Delete Employee</h3>
+                Enter EmployeeId to delete: <input id="txtEmpId" type="text" />
+                <button id="btnDeleteEmployee" onclick="DeleteEmployee(); return false;">Delete Employee</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

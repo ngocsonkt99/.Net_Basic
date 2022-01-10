@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Personal_FSoftModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BaiViet">
+    <Key>
+      <PropertyRef Name="maBaiViet" />
+    </Key>
+    <Property Name="maBaiViet" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="tuaBaiViet" Type="nvarchar" MaxLength="150" />
+    <Property Name="noiDungTomTat" Type="nvarchar(max)" />
+    <Property Name="noiDungChinh" Type="nvarchar(max)" />
+    <Property Name="ngayDang" Type="datetime" />
+    <Property Name="maLoai" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="maComment" />
+    </Key>
+    <Property Name="maComment" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="noiDung" Type="nvarchar(max)" />
+    <Property Name="ngayComment" Type="datetime" />
+    <Property Name="maBaiViet" Type="nchar" MaxLength="20" />
+    <Property Name="maTaiKhoan" Type="nchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="LoaiBaiViet">
+    <Key>
+      <PropertyRef Name="maLoai" />
+    </Key>
+    <Property Name="maLoai" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="tenLoai" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TaiKhoan">
+    <Key>
+      <PropertyRef Name="maTaiKhoan" />
+    </Key>
+    <Property Name="maTaiKhoan" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="tenDayDu" Type="nvarchar" MaxLength="50" />
+    <Property Name="matKhau" Type="nvarchar" MaxLength="50" />
+    <Property Name="loaiTaiKhoan" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK__BaiViet__maLoai__300424B4">
+    <End Role="LoaiBaiViet" Type="Self.LoaiBaiViet" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiBaiViet">
+        <PropertyRef Name="maLoai" />
+      </Principal>
+      <Dependent Role="BaiViet">
+        <PropertyRef Name="maLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comment__maBaiVi__30F848ED">
+    <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BaiViet">
+        <PropertyRef Name="maBaiViet" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="maBaiViet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_TaiKhoan">
+    <End Role="TaiKhoan" Type="Self.TaiKhoan" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaiKhoan">
+        <PropertyRef Name="maTaiKhoan" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="maTaiKhoan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Personal_FSoftModelStoreContainer">
+    <EntitySet Name="BaiViet" EntityType="Self.BaiViet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comment" EntityType="Self.Comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoaiBaiViet" EntityType="Self.LoaiBaiViet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaiKhoan" EntityType="Self.TaiKhoan" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__BaiViet__maLoai__300424B4" Association="Self.FK__BaiViet__maLoai__300424B4">
+      <End Role="LoaiBaiViet" EntitySet="LoaiBaiViet" />
+      <End Role="BaiViet" EntitySet="BaiViet" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comment__maBaiVi__30F848ED" Association="Self.FK__Comment__maBaiVi__30F848ED">
+      <End Role="BaiViet" EntitySet="BaiViet" />
+      <End Role="Comment" EntitySet="Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_TaiKhoan" Association="Self.FK_Comment_TaiKhoan">
+      <End Role="TaiKhoan" EntitySet="TaiKhoan" />
+      <End Role="Comment" EntitySet="Comment" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

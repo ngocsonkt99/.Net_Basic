@@ -1,0 +1,57 @@
+﻿@model IEnumerable<prjDemoEF.Models.BaiViet>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.tuaBaiViet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.noiDungTomTat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.noiDungChinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ngayDang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LoaiBaiViet.tenLoai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.tuaBaiViet)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.noiDungTomTat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.noiDungChinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ngayDang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LoaiBaiViet.tenLoai)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { ma=item.maBaiViet }) |
+            @Html.ActionLink("XemChiTiet", "XemChiTiet", new { maBV=item.maBaiViet }) |
+            @Html.ActionLink("Delete", "Delete", new { ma=item.maBaiViet })
+        </td>
+    </tr>
+}
+
+</table>

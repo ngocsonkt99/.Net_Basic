@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CSDLXeModelStoreContainer" CdmEntityContainer="CSDLXeEntities">
+    <EntitySetMapping Name="ListXes">
+      <EntityTypeMapping TypeName="CSDLXeModel.ListXe">
+        <MappingFragment StoreEntitySet="ListXe">
+          <ScalarProperty Name="ma" ColumnName="ma" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="namsx" ColumnName="namsx" />
+          <ScalarProperty Name="gia" ColumnName="gia" />
+          <ScalarProperty Name="hinhanh" ColumnName="hinhanh" />
+          <ScalarProperty Name="loai" ColumnName="loai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiXes">
+      <EntityTypeMapping TypeName="CSDLXeModel.LoaiXe">
+        <MappingFragment StoreEntitySet="LoaiXe">
+          <ScalarProperty Name="maloai" ColumnName="maloai" />
+          <ScalarProperty Name="tenloai" ColumnName="tenloai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

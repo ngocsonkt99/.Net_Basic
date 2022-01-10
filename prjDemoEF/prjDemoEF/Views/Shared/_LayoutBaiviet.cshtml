@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        div {
+            border: 1px solid #808080;
+        }
+        nav {
+            background-color:#e1f6f3;
+            height:30px;
+            text-align:center;
+            color:#2083cd;
+            font-size: 16px;
+            margin:  0 auto;
+            padding:10px 0px 0px 0px;
+
+        }
+        #main  {
+            width:100%;
+        }
+        #left {
+            width:80%;
+
+            float:left;
+        }
+        #right {
+            width:20%;
+            float:left;
+        }
+        #footer {
+            clear:both;
+            background-color:#e1f6f3;
+
+        }
+        #frm {
+            height:200px;
+        }
+        #dsbv {
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div>
+            <h1>17072921_Ứng Ngọc Sơn</h1>
+        </div>
+
+        <nav>
+            <a href="@Url.Action("Index", "BaiViets")">Trang Chủ</a>|
+            <a href="@Url.Action("DangKy", "NguoiDung")">Đăng Ký</a>|
+
+            @{
+                if (Request.Cookies["myCookies"] != null)
+                {
+                    HttpCookie ck = Request.Cookies["myCookies"];
+                    Session["maTaiKhoan"] = ck["name"].ToString();
+                }
+            }
+            @if (Session["maTaiKhoan"] != null)
+            {
+                @Session["maTaiKhoan"].ToString()
+                <a href="@Url.Action("DoiMatKhau", "NguoiDung")">|Đổi mật  khẩu</a>
+                <a href="@Url.Action("DangXuat", "NguoiDung",
+                    new {@strURL=Request.Url.ToString()})">|Đăng xuất</a>
+            }
+        </nav>
+        <div id="main">
+
+            <div id="left">
+                @RenderBody()
+                @*noi dung thay doi*@
+            </div>
+
+            <div id="right">
+                <div id="frm">
+                    @using (Html.BeginForm("DangNhap", "NguoiDung",
+                            new {  @strURL = Request.Url.ToString() }))
+         
+                    {
+                    @Html.Label("Username:")<br />
+                    @Html.TextBox("txtUser", "", htmlAttributes: new
+                       {
+                           @class = "textboxDangNhap",
+                           @placeholder = "nhập user"
+                       })<br />
+                    @Html.Label("Password:")<br />
+                    @Html.Password("txtPass", "", htmlAttributes: new
+                       {
+                           @class = "textboxDangNhap",
+                           @placeholder = "nhập password"
+                       })
+                    <p>
+                        <button type="submit" name="btnDangNhap" class="buttonDangNhap">
+                            Sign In
+                        </button>
+                    </p>
+                    }
+                </div>
+                <div id="dsbv">
+                    DANH SÁCH CÁC LOẠI BÀI VIẾT
+                    @Html.Action("LoaiBaiViet", "LoaiBaiViets")
+                </div>
+            </div>
+        </div>
+        Trang 1/1
+        <br />1
+        <div id="footer">
+            Khoa CNTT - IUH
+        </div>
+    </div>
+</body>
+</html>

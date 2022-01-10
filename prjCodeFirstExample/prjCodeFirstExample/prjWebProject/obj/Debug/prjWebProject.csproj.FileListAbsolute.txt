@@ -1,0 +1,166 @@
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\ApplicationInsights.config
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\csc.exe
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\vbc.exe
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\VBCSCompiler.exe
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\prjWebProject.dll.config
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\prjWebProject.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\prjWebProject.pdb
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Antlr3.Runtime.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\EntityFramework.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\EntityFramework.SqlServer.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.Web.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.WindowsServer.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.ApplicationInsights.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Google.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Newtonsoft.Json.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Owin.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.Helpers.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.Mvc.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.Optimization.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.Razor.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.Deployment.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.Razor.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\WebGrease.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.Web.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.WindowsServer.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.ApplicationInsights.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.Helpers.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.Mvc.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.Optimization.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.Razor.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.Deployment.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.Razor.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Antlr3.Runtime.pdb
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Newtonsoft.Json.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\EntityFramework.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\EntityFramework.SqlServer.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Google.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\obj\Debug\prjWebProject.csprojResolveAssemblyReference.cache
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\obj\Debug\prjWebProject.dll
+D:\Data\5.LapTrinh WWW\Exercises\GK\prjCodeFirstExample\prjWebProject\obj\Debug\prjWebProject.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\ApplicationInsights.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\csc.exe
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\vbc.exe
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\VBCSCompiler.exe
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\prjWebProject.dll.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\prjWebProject.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\prjWebProject.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Antlr3.Runtime.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\EntityFramework.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\EntityFramework.SqlServer.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.Web.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.WindowsServer.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.ApplicationInsights.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Google.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Newtonsoft.Json.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Owin.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.Helpers.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.Mvc.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.Optimization.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.Razor.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.Deployment.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.Razor.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\WebGrease.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.Web.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AI.WindowsServer.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.ApplicationInsights.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.Helpers.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.Mvc.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.Optimization.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.Razor.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.Deployment.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\System.Web.WebPages.Razor.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Antlr3.Runtime.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Newtonsoft.Json.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\EntityFramework.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\EntityFramework.SqlServer.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Google.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\obj\Debug\prjWebProject.csprojAssemblyReference.cache
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\obj\Debug\prjWebProject.csproj.CoreCompileInputs.cache
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\obj\Debug\prjWebProject.csproj.CopyComplete
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\obj\Debug\prjWebProject.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjWebProject\obj\Debug\prjWebProject.pdb

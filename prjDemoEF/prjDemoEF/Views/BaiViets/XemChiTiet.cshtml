@@ -1,0 +1,81 @@
+﻿@using prjDemoEF.Models;
+@model Comment
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Shared/_LayoutBaiviet.cshtml";
+}
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<h2>XemChiTiet</h2>
+<script>
+    $(function () {
+        $("form").submit(function () {
+            if ($("[name='txtNoiDung']").val() == "") {
+                alert("Ban chua nhap noi dung!");
+                $("[name='txtNoiDung']").focus();
+                return false;
+            }
+            if ($("[name='txtMaTaiKhoan']").val() == "") {
+                alert("Ban chua nhap ten tai khoan!");
+                $("[name='txtMaTaiKhoan']").focus();
+                return false;
+            }
+        });
+    });
+</script>
+@{BaiViet bv = (BaiViet)ViewBag.BaiViet;}
+<div id="ThongTin">
+    <div id="tuaBaiViet">@bv.tuaBaiViet</div>
+    <div id="maLoai">Loại Bài Viết: @ViewBag.TenLoaiBV</div>
+    <div id="Mota">Nội dung tóm tắt: <br/>-@bv.noiDungTomTat<br/></div>
+    <div id="Mota">Nội Dung Chính: <br />-@bv.noiDungChinh<br/></div>
+
+</div>
+<div id="comment">
+    @using (Html.BeginForm("InsertComment", "Comment", new
+    { @id = "f1", @strURL = Request.Url.ToString()
+    }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            <h4>Comment</h4>
+            <hr/>
+            @Html.ValidationSummary(true)
+            <div class="form-group">
+                @Html.LabelFor(model => model.noiDung)
+                <div class="col-md-10">
+                    @Html.TextArea("txtNoiDung")
+                    @Html.ValidationMessageFor(model => model.noiDung)
+                </div>
+            </div>
+            <div class="form-group">
+                Nhap ten nguoi comment:
+                <br />
+                @if(Session["maTaiKhoan"] != null)
+                {
+                    @Html.TextBox("txtMaTaiKhoan", Session["maTaiKhoan"].ToString())
+                }
+                else
+                {
+                    @Html.TextBox("txtMaTaiKhoan")
+                }
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btnsubmit" id="bsubmit" />
+                </div>
+            </div>
+        </div>
+    }
+</div>
+@{ 
+    List<Comment> lstComment = (List<Comment>)ViewBag.DSComment;
+    <div id="lstCom">
+        <h5>Các Comment</h5>
+        @foreach (Comment c in lstComment)
+        {
+            <div style="border:1px dotted blue"><h6>@c.maTaiKhoan</h6> <p>@c.noiDung</p>
+                <p style="text-align:right; font-style:italic">@c.ngayComment.ToString()</p>
+            </div>
+        }
+    </div>
+}

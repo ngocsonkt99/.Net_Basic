@@ -1,0 +1,11 @@
+﻿@model IEnumerable<prjDemoEF.Models.LoaiBaiViet>
+@{
+    ViewBag.Title = "Loaibaiviet";
+}
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@Html.ActionLink(item.tenLoai, "Baivietthuocloai", new { @ma = item.maLoai })</li>
+    }
+</ul>

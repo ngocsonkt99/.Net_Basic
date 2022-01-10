@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Model.LoaiXe>
+
+@foreach (var item in Model)
+{
+    <div style="width: 100px">
+
+        <b><a href="@Url.Action("LayXeTheoLoai", "LoaiXes", new {id = item.Id })">@item.TenLoai</a>  </b>
+
+    </div>
+}

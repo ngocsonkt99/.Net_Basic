@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/carstyle.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            Logo
+        </div>
+        <div id="links">
+
+            @Html.ActionLink("Trang chủ", "Index", "ListXes") |
+
+            @Html.Action("XemuaPatial", "Datxe")
+
+        </div>
+        <div id="content">
+            <div id="left">
+                @Html.Action("Loaipartial", "Loai")
+                Partial
+            </div>
+            <div id="right">
+                @RenderBody()
+            </div>
+        </div>
+        <div id="footer">
+            Copyright...
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Xe.Models.LoaiXe>
+    <div id="loaixe">
+        <h3>Chon Loai Xe</h3>
+        @{ 
+            foreach(var item in Model)
+            {
+                <a href="@Url.Action("Xeinloai", new {loaiid=item.maloai })" class="alink">
+                    @item.tenloai
+                </a><br />
+            }
+        }
+    </div>
+    <style>
+        #loaixe{
+            width:140px;
+            height:auto;
+            background-color:#f7f1d8;
+            border:1px inset #808080;
+        }
+        .alink:hover{
+            color:red;
+            font-weight:bold;
+        }
+    </style>

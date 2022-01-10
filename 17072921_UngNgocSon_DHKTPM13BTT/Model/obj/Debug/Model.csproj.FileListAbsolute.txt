@@ -1,0 +1,12 @@
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\bin\Debug\Model.dll.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\bin\Debug\Model.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\bin\Debug\Model.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\bin\Debug\EntityFramework.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\bin\Debug\EntityFramework.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\obj\Debug\Model.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\obj\Debug\Model.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\KTTH\17072921_UngNgocSon_DHKTPM13BTT\Model\obj\Debug\Model.csprojAssemblyReference.cache

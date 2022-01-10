@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\17072921_UngNgocSon_N131\17072921_UngNgocSon_N131\bin\Debug\17072921_UngNgocSon_N131.exe.config
+C:\Users\Admin\source\repos\17072921_UngNgocSon_N131\17072921_UngNgocSon_N131\bin\Debug\17072921_UngNgocSon_N131.exe
+C:\Users\Admin\source\repos\17072921_UngNgocSon_N131\17072921_UngNgocSon_N131\bin\Debug\17072921_UngNgocSon_N131.pdb
+C:\Users\Admin\source\repos\17072921_UngNgocSon_N131\17072921_UngNgocSon_N131\obj\Debug\17072921_UngNgocSon_N131.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\17072921_UngNgocSon_N131\17072921_UngNgocSon_N131\obj\Debug\17072921_UngNgocSon_N131.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\17072921_UngNgocSon_N131\17072921_UngNgocSon_N131\obj\Debug\17072921_UngNgocSon_N131.exe
+C:\Users\Admin\source\repos\17072921_UngNgocSon_N131\17072921_UngNgocSon_N131\obj\Debug\17072921_UngNgocSon_N131.pdb

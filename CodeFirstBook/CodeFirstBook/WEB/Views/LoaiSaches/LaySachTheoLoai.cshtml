@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Model.Sach>
+
+@{
+    ViewBag.Title = "LaySachTheoLoai";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+<h2>Index</h2>
+
+@foreach (var item in Model)
+{
+    <div class="col-lg-4" style="border: 1px solid aqua">
+
+        @item.Ten<br />
+        <img src="~/Image/sach1.jpg" style="width:100px;height:100px" /><br />
+        @item.Gia<br />
+        @item.Loai<br />
+        @*@Html.ActionLink("XemChitiet", "Details","Saches", new { id = item.Id })*@
+        <a href="@Url.Action("Details", "Saches", new { id = item.Id })">XemChitiet</a>  
+    </div>
+
+
+}

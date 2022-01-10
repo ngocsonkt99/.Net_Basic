@@ -1,0 +1,59 @@
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\csc.exe
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\vbc.exe
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\API_bai2.dll.config
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\API_bai2.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\API_bai2.pdb
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\Newtonsoft.Json.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\System.Net.Http.Formatting.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\System.Web.Http.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\System.Web.Http.WebHost.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\Newtonsoft.Json.xml
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\System.Net.Http.Formatting.xml
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\System.Web.Http.xml
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\System.Web.Http.WebHost.xml
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\obj\Debug\API_bai2.dll
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\obj\Debug\API_bai2.pdb
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\API_bai2.dll.CodeAnalysisLog.xml
+C:\Users\Toan\Desktop\BaiTapC#\API_bai2\API_bai2\bin\API_bai2.dll.lastcodeanalysissucceeded
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\csc.exe
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\System.Collections.Immutable.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\System.Reflection.Metadata.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\vbc.exe
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\VBCSCompiler.exe
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\roslyn\VBCSCompiler.exe.config
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\API_bai2.dll.config
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\API_bai2.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\API_bai2.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\Newtonsoft.Json.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\System.Net.Http.Formatting.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\System.Web.Http.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\System.Web.Http.WebHost.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\Newtonsoft.Json.xml
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\System.Net.Http.Formatting.xml
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\System.Web.Http.xml
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\bin\System.Web.Http.WebHost.xml
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\obj\Debug\API_bai2.csprojAssemblyReference.cache
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\obj\Debug\API_bai2.csproj.CoreCompileInputs.cache
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\obj\Debug\API_bai2.csproj.CopyComplete
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\obj\Debug\API_bai2.dll
+D:\Temp\LTWWW .Net (C#)\MVC\API_MVC\API_bai2\API_bai2\API_bai2\obj\Debug\API_bai2.pdb

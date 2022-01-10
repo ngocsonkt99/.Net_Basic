@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Personal_FSoftModelStoreContainer" CdmEntityContainer="Personal_FSoftEntities">
+    <EntitySetMapping Name="BaiViets">
+      <EntityTypeMapping TypeName="Personal_FSoftModel.BaiViet">
+        <MappingFragment StoreEntitySet="BaiViet">
+          <ScalarProperty Name="maBaiViet" ColumnName="maBaiViet" />
+          <ScalarProperty Name="tuaBaiViet" ColumnName="tuaBaiViet" />
+          <ScalarProperty Name="noiDungTomTat" ColumnName="noiDungTomTat" />
+          <ScalarProperty Name="noiDungChinh" ColumnName="noiDungChinh" />
+          <ScalarProperty Name="ngayDang" ColumnName="ngayDang" />
+          <ScalarProperty Name="maLoai" ColumnName="maLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="Personal_FSoftModel.Comment">
+        <MappingFragment StoreEntitySet="Comment">
+          <ScalarProperty Name="maComment" ColumnName="maComment" />
+          <ScalarProperty Name="noiDung" ColumnName="noiDung" />
+          <ScalarProperty Name="ngayComment" ColumnName="ngayComment" />
+          <ScalarProperty Name="maBaiViet" ColumnName="maBaiViet" />
+          <ScalarProperty Name="maTaiKhoan" ColumnName="maTaiKhoan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiBaiViets">
+      <EntityTypeMapping TypeName="Personal_FSoftModel.LoaiBaiViet">
+        <MappingFragment StoreEntitySet="LoaiBaiViet">
+          <ScalarProperty Name="maLoai" ColumnName="maLoai" />
+          <ScalarProperty Name="tenLoai" ColumnName="tenLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaiKhoans">
+      <EntityTypeMapping TypeName="Personal_FSoftModel.TaiKhoan">
+        <MappingFragment StoreEntitySet="TaiKhoan">
+          <ScalarProperty Name="maTaiKhoan" ColumnName="maTaiKhoan" />
+          <ScalarProperty Name="tenDayDu" ColumnName="tenDayDu" />
+          <ScalarProperty Name="matKhau" ColumnName="matKhau" />
+          <ScalarProperty Name="loaiTaiKhoan" ColumnName="loaiTaiKhoan" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

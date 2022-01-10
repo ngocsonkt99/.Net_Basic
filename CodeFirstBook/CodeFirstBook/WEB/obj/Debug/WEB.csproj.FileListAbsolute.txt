@@ -1,0 +1,155 @@
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\csc.exe
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\vbc.exe
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\WEB.dll.config
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\WEB.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\WEB.pdb
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Antlr3.Runtime.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Bussiness.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\DataAccess.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\EntityFramework.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\EntityFramework.SqlServer.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Model.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Newtonsoft.Json.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Owin.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.Helpers.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.Mvc.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.Optimization.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.Razor.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.WebPages.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\WebGrease.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Bussiness.pdb
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\DataAccess.pdb
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Model.pdb
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.Helpers.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.Mvc.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.Optimization.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.Razor.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.WebPages.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Antlr3.Runtime.pdb
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Newtonsoft.Json.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\EntityFramework.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\EntityFramework.SqlServer.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\obj\Debug\WEB.csprojResolveAssemblyReference.cache
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\obj\Debug\WEB.dll
+C:\Users\Toan\Desktop\BaiTapC#\CodeFirstBook\WEB\obj\Debug\WEB.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\csc.exe
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\System.Collections.Immutable.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\System.Reflection.Metadata.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\vbc.exe
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\VBCSCompiler.exe
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\roslyn\VBCSCompiler.exe.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\WEB.dll.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\WEB.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\WEB.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Antlr3.Runtime.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Bussiness.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\DataAccess.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\EntityFramework.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\EntityFramework.SqlServer.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Google.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Web.Infrastructure.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Model.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Newtonsoft.Json.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Owin.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.Helpers.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.Mvc.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.Optimization.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.Razor.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.WebPages.Deployment.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.WebPages.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.WebPages.Razor.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\WebGrease.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Bussiness.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Bussiness.dll.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\DataAccess.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\DataAccess.dll.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Model.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Model.dll.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.Helpers.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.Mvc.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.Optimization.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.Razor.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.WebPages.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.WebPages.Deployment.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\System.Web.WebPages.Razor.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Antlr3.Runtime.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Newtonsoft.Json.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\EntityFramework.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\EntityFramework.SqlServer.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Google.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\obj\Debug\WEB.csprojAssemblyReference.cache
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\obj\Debug\WEB.csproj.CoreCompileInputs.cache
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\obj\Debug\WEB.csproj.CopyComplete
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\obj\Debug\WEB.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\CodeFirstBook\CodeFirstBook\WEB\obj\Debug\WEB.pdb

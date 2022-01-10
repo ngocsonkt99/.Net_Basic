@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Product App</title>
+</head>
+<body>
+
+    <div>
+        <h2>All Products</h2>
+        <table id="products" border="1" width="100%" cellspacing="0">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Catergory</th>
+                <th>Price</th>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Search by ID</h2>
+        <input type="text" id="prodId" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <p id="product" />
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+        //Khai báo uri API cho API controller Products
+
+        var uri = 'api/products';
+
+        $(document).ready(function () {
+            // Send an AJAX request
+            $.getJSON(uri)
+                .done(function (data) {
+                    // Request thành công (done), 'data' contains a list of products.
+                    $('#products tbody').empty(); // Refresh table
+                    $.each(data, function (key, item) {
+                        // thêm dòng cho mỗi product.
+                        var trnew = $('<tr><td>' + item.Id + '</td><td>' + item.Name + '</td><td>' + item.Category + '</td><td>' + item.Price + '</td></tr>');
+                        $('#products tbody').append(trnew);
+
+                    });
+                });
+        });
+
+        function formatItem(item) {            return item.Name + ': $Category: ' + item.Category + ': $Price: ' + item.Price;        }
+
+
+
+        function find() {
+            var id = $('#prodId').val();
+            $.getJSON(uri + '/' + id)
+                .done(function (data) {
+                    $('#product').text(formatItem(data));
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    $('#product').text('Error: ' + err);
+                });
+        }
+
+
+    </script>
+</body>
+</html>

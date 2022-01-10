@@ -1,0 +1,18 @@
+﻿@model prjDemoEF.Models.TaiKhoan
+@{
+    ViewBag.Title = "DoiMatKhau";
+    Layout = "~/Views/Shared/_LayoutBaiviet.cshtml";
+}
+
+<h2>DoiMatKhau</h2>
+@using (Html.BeginForm("DoiMatKhau", "NguoiDung", new { @username =Session["maTaiKhoan"], @strURL=Request.Url.ToString()}))
+{
+    @Html.ValidationSummary(true);
+    <p>
+        Mật khẩu cũ:@Html.TextBox("txtOld")
+    </p>
+    <p>
+        Mật khẩu mới:@Html.TextBox("txtNew")
+    </p>
+    <p><button name="btnSubmit" type="submit">Lưu</button></p>
+}

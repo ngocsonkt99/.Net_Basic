@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /*div {
+            border: 1px solid #808080;
+        }*/
+        nav {
+            background-color: #e1f6f3;
+            height: 30px;
+            text-align: center;
+            color: #2083cd;
+            font-size: 16px;
+            padding: 0px 0px 0px 0px;
+        }
+
+        .menu {
+            background-color: aqua;
+        }
+
+        .header {
+            background-color: lightpink;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        #left {
+            width: 20%;
+            float: left;
+        }
+
+        #footer {
+            clear: both;
+            background-color: #e1f6f3;
+        }
+
+        #right {
+            width: 80%;
+            float: right;
+        }
+
+        #frm {
+            height: 200px;
+        }
+
+        #dsbv {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar header" style="border: 3px solid aqua">
+            <h1>KTTH WWW</h1>
+            <div class="menu">
+                @*<nav class="header" style="border: 3px solid aqua;background-color:hotpink; text-align:center">*@
+                <nav>
+                    <a href="@Url.Action("Index", "Xes")">|Trang chủ|</a>&nbsp;
+
+                    <a href="@Url.Action("Index","Xes")">Xe|</a>
+                    <a href="@Url.Action("Index","LoaiXes")">LoaiXe|</a>
+                </nav>
+                <br />
+                <div class="container body-content">
+
+                    <div class="row">
+
+                        <div class="col-sm-4" style="border:1px solid pink">
+                            <span>Danh Sach Xe Theo Loai:</span><br /><br />
+                            @Html.Action("DanhSachLoaiXe", "LoaiXes")
+                      
+                        </div>
+                        <div class="col-sm-8">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="ft">
+                    <footer style="border: 3px solid aqua;background-color:hotpink">
+                        <p style="text-align:center">17072921-Ứng Ngọc Sơn-DHKTPM13BTT</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+

@@ -1,0 +1,17 @@
+﻿@model IEnumerable<prjData.Writer>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+       
+        <li>@Html.ActionLink(item.Name, "Baivietthuocloai", new { @ma = item.Id })</li>
+    }
+    
+</table>

@@ -1,0 +1,11 @@
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\bin\Debug\prjData.dll.config
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\bin\Debug\prjData.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\bin\Debug\prjData.pdb
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\bin\Debug\EntityFramework.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\bin\Debug\EntityFramework.SqlServer.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\bin\Debug\EntityFramework.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\bin\Debug\EntityFramework.SqlServer.xml
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\obj\Debug\prjData.csproj.CoreCompileInputs.cache
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\obj\Debug\prjData.csproj.CopyComplete
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\obj\Debug\prjData.dll
+D:\Temp\LTWWW .Net (C#)\MVC\First\prjCodeFirstExample\prjCodeFirstExample\prjData\obj\Debug\prjData.pdb

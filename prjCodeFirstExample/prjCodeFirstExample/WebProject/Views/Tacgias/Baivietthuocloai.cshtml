@@ -1,0 +1,41 @@
+﻿@model IEnumerable<prjData.Recipe>
+
+@{
+    ViewBag.Title = "Baivietthuocloai";
+}
+
+<h2>DAnh Sach Recipe cua Writer</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Writer.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Writer.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.repID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.repID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.repID })
+        </td>
+    </tr>
+}
+
+</table>
